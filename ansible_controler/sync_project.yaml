@@ -1,0 +1,13 @@
+---
+- name: Sync project in Ansible Controler
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  vars:
+    project_name:
+
+  tasks:
+  - name: "Syncing project {{ project_name }}"
+    ansible.controller.project_update:
+      project: "{{ project_name }}"
+      wait: False

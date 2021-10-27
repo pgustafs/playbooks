@@ -1,0 +1,1 @@
+All plybooks in this folder requires a credential of the type `Red Hat Ansible Automation Platform` to be created in your Controler node or having the following environment variables set `CONTROLLER_VERIFY_SSL`, `CONTROLLER_HOST`, `CONTROLLER_USERNAME`, `CONTROLLER_PASSWORD`.
